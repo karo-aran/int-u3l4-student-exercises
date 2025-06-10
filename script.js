@@ -4,15 +4,16 @@ let img = document.querySelector("img");
 
 // 1. Press the button on the webpage to change it up! Take notice of what happens.
 // - What do you think innerHTML does?
+// it gets the code within html and change it
 // - What do you think .src does?
-
+//source attribute
 
 // 2. Try the following:
 // - Make it so that the header says your name when the button is clicked.
 // - Change the src of the image to something random.
 button.addEventListener("click", function() {
-    header.innerHTML = "🤯 wow cool neeto";
-    img.src = "https://media4.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif";
+    header.innerHTML = "🤯 karo!";
+    img.src = "https://media.tenor.com/MKkJWYigjycAAAAM/cute-cat-cat-cute.gif";
 });
 
 
